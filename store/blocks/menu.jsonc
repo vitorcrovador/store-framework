@@ -10,17 +10,35 @@
         }
     },
     "menu-item#major-appliances": {
-        "children": [
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Major Aplliances"
+            }
+        },
+        "blocks": [
             "vtex.menu@2.x:submenu#major"
         ]
     },
     "menu-item#small-appliances": {
-        "children": [
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Small Aplliances"
+            }
+        },
+        "blocks": [
             "vtex.menu@2.x:submenu#small"
         ]
     },
     "menu-item#electronics": {
-        "children": [
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Electronics"
+            }
+        },
+        "blocks": [
             "vtex.menu@2.x:submenu#electronics"
         ]
     },
