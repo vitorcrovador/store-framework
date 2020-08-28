@@ -10,17 +10,17 @@
         }
     },
     "menu-item#major-appliances": {
-        "blocks": [
+        "children": [
             "vtex.menu@2.x:submenu#major"
         ]
     },
     "menu-item#small-appliances": {
-        "blocks": [
+        "children": [
             "vtex.menu@2.x:submenu#small"
         ]
     },
     "menu-item#electronics": {
-        "blocks": [
+        "children": [
             "vtex.menu@2.x:submenu#electronics"
         ]
     },
