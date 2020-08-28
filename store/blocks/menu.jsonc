@@ -9,39 +9,6 @@
             "orientation": "horizontal"
         }
     },
-    "menu-item#major-appliances": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Major Aplliances"
-            }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#major"
-        ]
-    },
-    "menu-item#small-appliances": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Small Aplliances"
-            }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#small"
-        ]
-    },
-    "menu-item#electronics": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Electronics"
-            }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#electronics"
-        ]
-    },
     "vtex.menu@2.x:submenu#major": {
         "children": [
             "vtex.menu@2.x:menu#major"
