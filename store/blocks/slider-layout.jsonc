@@ -10,9 +10,11 @@
         ],
         "props": {
             "autoplay": {
-                "timeout": 5000,
-                "delay": 7000,
+                "timeout": 5000,                
                 "stopOnHover": true
+            },
+            "slideTransition": {
+                "delay": 7000
             }
         }
     },
